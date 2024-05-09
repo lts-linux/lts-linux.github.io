@@ -1,0 +1,14 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chapter:before{
+    content: '';
+    background:url('/assets/lts-linux.svg');
+    width: 120px;
+    height: 150px;
+    margin-left: 30px;
+    display: block;
+}
