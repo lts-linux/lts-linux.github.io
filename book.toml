@@ -2,7 +2,7 @@
 authors = ["Tom Irgang"]
 description = "All about long term supported embedded Linux solutions."
 language = "en"
-multilingual = true
+multilingual = false
 src = "src"
 title = "LTS Linux"
 
