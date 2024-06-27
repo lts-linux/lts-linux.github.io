@@ -1,2 +1,0 @@
-# Bulding embedded Linux images
-
