@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://lts-linux.eu/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme>dark</tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>reboot</tabi:current_section>
+    </tabi:metadata><title>LTS Linux - reboot</title>
+        <subtitle>All about long-living embedded Linux</subtitle>
+    <link href="https://lts-linux.eu/tags/reboot/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://lts-linux.eu/tags/reboot/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-30T00:00:00+00:00</updated>
+    <id>https://lts-linux.eu/tags/reboot/atom.xml</id><entry xml:lang="en">
+        <title>Reboot...</title>
+        <published>2024-10-30T00:00:00+00:00</published>
+        <updated>2024-10-30T00:00:00+00:00</updated>
+        <author>
+            <name>Tom Irgang</name>
+        </author>
+        <link rel="alternate" href="https://lts-linux.eu/blog/restart/" type="text/html"/>
+        <id>https://lts-linux.eu/blog/restart/</id>
+        
+            <content type="html">&lt;p&gt;Hi all,&lt;&#x2F;p&gt;
+&lt;p&gt;today I update the tooling for this blog to &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;zola&lt;&#x2F;a&gt;,
+a &lt;em&gt;Rust&lt;&#x2F;em&gt; based static site generator, and the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;welpo&#x2F;tabi&quot;&gt;tabi&lt;&#x2F;a&gt; theme.&lt;&#x2F;p&gt;
+&lt;p&gt;I hope that I manage this time to create regular update for all of you,
+and better utlilize the nice page.&lt;&#x2F;p&gt;
+&lt;p&gt;Regards,
+Tom&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">A new design and a new try of regular updates ...</summary>
+        </entry>
+</feed>
