@@ -21,7 +21,7 @@ and existence of packages indices and packages.
 
 ## Why is is needed?
 
-Debian is a great base for buildung custom embedded Linux distributions,
+Debian is a great base for building custom embedded Linux distributions,
 because it supports a huge amount of architectures,
 and provides very long support for the packages.
 This reduces the burden of maintaining an embedded Linux solution a lot.
@@ -29,5 +29,5 @@ This reduces the burden of maintaining an embedded Linux solution a lot.
 Unfortunately, the available _apt_ tools are not built for my use case.
 I want to track in detail what changes over time and I want to do
 this for _apt_ repositories not configured on my host machine.
-_Libapt_ shall build the base of a small toolset supporting building of
-embedded Linux root filesystems form _apt_ repositories.
+_Libapt_ shall build the base of a small tool set supporting building of
+embedded Linux root file systems form _apt_ repositories.

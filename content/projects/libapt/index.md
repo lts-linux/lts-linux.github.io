@@ -1,15 +1,18 @@
 +++
 title = "Libapt"
 date = 2024-10-30
+updated = 2024-11-02
 description = "Libapt is a pure Rust apt library."
-weight = 10
+weight = 100
 
 [extra]
-local_image = "/projects/libapt/Rust_programming_language_black_logo.svg.png"
+local_image = "/projects/libapt/Libapt.webp"
 
 [taxonomies]
 tags = ["Rust", "library", "APT", "Debian"]
 +++
+
+<img src="/projects/libapt/Libapt.webp" width="50%" />
 
 Libapt is a pure Rust apt library.
 
