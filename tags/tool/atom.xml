@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://lts-linux.eu/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme>dark</tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>tool</tabi:current_section>
+    </tabi:metadata><title>LTS Linux - tool</title>
+        <subtitle>All about long-living embedded Linux</subtitle>
+    <link href="https://lts-linux.eu/tags/tool/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://lts-linux.eu/tags/tool/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-11-02T00:00:00+00:00</updated>
+    <id>https://lts-linux.eu/tags/tool/atom.xml</id><entry xml:lang="en">
+        <title>Aptcheckr</title>
+        <published>2024-11-02T00:00:00+00:00</published>
+        <updated>2024-11-02T00:00:00+00:00</updated>
+        <author>
+            <name>Tom Irgang</name>
+        </author>
+        <link rel="alternate" href="https://lts-linux.eu/blog/aptcheckr/" type="text/html"/>
+        <id>https://lts-linux.eu/blog/aptcheckr/</id>
+        
+            <content type="html">&lt;h2 id=&quot;new-project-started&quot;&gt;&lt;a class=&quot;header-anchor no-hover-padding&quot; href=&quot;#new-project-started&quot; aria-label=&quot;Anchor link for: new-project-started&quot;&gt;&lt;span class=&quot;link-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+New project started!&lt;&#x2F;h2&gt;
+&lt;p&gt;I started a new project called &lt;em&gt;aptcheckr&lt;&#x2F;em&gt;.
+&lt;em&gt;Aptcheckr&lt;&#x2F;em&gt; is a command line tool to verify apt repositories.
+It’s based in &lt;a href=&quot;https:&#x2F;&#x2F;lts-linux.eu&#x2F;projects&#x2F;libapt&#x2F;&quot;&gt;libapt&lt;&#x2F;a&gt;
+and verifies that all apt repository metadata is compliant with
+the &lt;a href=&quot;https:&#x2F;&#x2F;www.debian.org&#x2F;doc&#x2F;debian-policy&#x2F;&quot;&gt;Debian policy&lt;&#x2F;a&gt;,
+and that the package set is consistent, i.e. all dependencies
+and source packages are available.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-is-is-needed&quot;&gt;&lt;a class=&quot;header-anchor no-hover-padding&quot; href=&quot;#why-is-is-needed&quot; aria-label=&quot;Anchor link for: why-is-is-needed&quot;&gt;&lt;span class=&quot;link-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+Why is is needed?&lt;&#x2F;h2&gt;
+&lt;p&gt;Debian is a great base for building custom embedded Linux distributions,
+because it supports a huge amount of architectures,
+and provides very long support for the packages.
+This reduces the burden of maintaining an embedded Linux solution a lot.&lt;&#x2F;p&gt;
+&lt;p&gt;I build my own derived distribution using &lt;a href=&quot;https:&#x2F;&#x2F;www.aptly.info&#x2F;&quot;&gt;aptly&lt;&#x2F;a&gt;,
+which works quite good, but I have no way to verify that my selected set
+of packages is valid, i.e. all dependencies are available and the packages
+fit together according to their metadata. This gap shall be closed using
+&lt;em&gt;aptcheckr&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, it would be cool to have a tool which can verify if two
+apt repositories are compatible. Maybe this can be also closed by
+&lt;em&gt;aptcheckr&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">Command line tool to verify apt repositories.</summary>
+        </entry><entry xml:lang="en">
+        <title>Aptcheckr</title>
+        <published>2024-11-02T00:00:00+00:00</published>
+        <updated>2024-11-02T00:00:00+00:00</updated>
+        <author>
+            <name>Tom Irgang</name>
+        </author>
+        <link rel="alternate" href="https://lts-linux.eu/projects/atpcheckr/" type="text/html"/>
+        <id>https://lts-linux.eu/projects/atpcheckr/</id>
+        
+            <content type="html">&lt;img src=&quot;&#x2F;projects&#x2F;atpcheckr&#x2F;Aptcheckr.webp&quot; width=&quot;50%&quot; &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;Aptcheckr&lt;&#x2F;em&gt; is a command line tool to verify apt repositories.
+It’s based in &lt;a href=&quot;https:&#x2F;&#x2F;lts-linux.eu&#x2F;projects&#x2F;libapt&#x2F;&quot;&gt;libapt&lt;&#x2F;a&gt;
+and verifies that all apt repository metadata is compliant with
+the &lt;a href=&quot;https:&#x2F;&#x2F;www.debian.org&#x2F;doc&#x2F;debian-policy&#x2F;&quot;&gt;Debian policy&lt;&#x2F;a&gt;,
+and that the package set is consistent, i.e. all dependencies
+and source packages are available.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tomirgang&#x2F;aptcheckr&quot;&gt;Read more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">Command line tool to verify apt repositories.</summary>
+        </entry>
+</feed>
